@@ -14,9 +14,9 @@ define('DB_PASS', '');
 define('DB_NAME', 'egitim');
 define('DB_SERVER_İNFO',$backup_config = array(
     'DB_HOST' => 'localhost',////Database hostname
-    'DB_NAME' => 'grandby_grandbyte',//Database name to backup
-    'DB_USERNAME' => 'grandby',//Database account username
-    'DB_PASSWORD' => '6AxP8x:?Btk',//Database account password
+    'DB_NAME' => 'egitim',//Database name to backup
+    'DB_USERNAME' => 'root',//Database account username
+    'DB_PASSWORD' => '',//Database account password
     'INCLUDE_DROP_TABLE' => false,//Include DROP TABLE IF EXISTS
     'SAVE_DIR' => '',//Folder to save file in
     'SAVE_AS' => 'grandby-',//Prepend filename

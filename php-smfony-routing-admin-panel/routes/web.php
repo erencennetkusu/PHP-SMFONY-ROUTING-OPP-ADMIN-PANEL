@@ -12,7 +12,6 @@ $routes->add( 'login-screen', new Route( '/login', array( 'controller' => 'login
 
 $routes->add( 'homepage', new Route( '/', array( 'controller' => 'homeController', 'method'=>'indexAction' ), array() ) );
 $routes->add( 'login-sub', new Route( '/login-submit', array( 'controller' => 'loginController', 'method'=>'loginSubmit' ), array() ) );
-$routes->add( 'adasdasds', new Route( '/eren-test', array( 'controller' => 'erenController', 'method'=>'test' ), array() ) );
 $routes->add( 'menu-page', new Route( '/menu', array( 'controller' => 'menuController', 'method'=>'indexAction' ), array() ) );
 $routes->add( 'menu-edit', new Route( '/menuEditter', array( 'controller' => 'menuController', 'method'=>'menuEditter' ), array() ) );
 $routes->add( 'menu-add', new Route( '/menuAdder', array( 'controller' => 'menuController', 'method'=>'menuAdd' ), array() ) );
